@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(rgb(255,255,255),rgb(109,39,239));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container{
+    width:70%;
+    height:450px;
+    border: 2px solid black;
+    background-color: #fff;
+    color: black;
+
+
+}
+
+.container h2{
+    text-align: center;
+    margin: 15px;
+}
+
+.avatar-body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.input-name{
+    margin: 15px;
+
+}
+.avatar-image{
+    margin: 15px;
+}
+.avatar-img{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.avatar-button{
+cursor: pointer;
+color:black;
+outline: none;
+padding: 10px 21px;
+background: none;
+border-radius: 5px;
+border: 2px solid purple;
+font-weight: bold;
+margin: 15px;
+}
+
+.avatar-button:hover{
+    background-color:white;
+    color: black;
+
+}
